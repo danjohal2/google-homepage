@@ -1,0 +1,5 @@
+This is my very first web development project. I started off my coding journey by following the html/css web development fundamentals course on FreeCodeCamp (I stopped just as I started the javascript section). I wanted to find a more robust curriculum that fit my learning style. The Odin Project mirrored that perfectly as it requires you to do a lot of supplmental learning to round out your knowledge.
+
+In this project I will be attempting to clone the Google home page with my knowledge of html and css. This is my very first project I've ever done after studying and learning the fundamentals. I wish to look back on this project in the future to see how far I've come.
+
+I will be using a lot of features such as flexbox and grid to layout the home page. I plan to use concise css to mirror the Google homepage exactly.
