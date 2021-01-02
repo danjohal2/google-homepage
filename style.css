@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    font-family: sans-serif;
+}
+
+/* NAVBAR CSS STYLING */
+
+#navbar {
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-template-areas:
+    "about store . gmail images menu profile";
+    grid-gap: 5px;
+    margin: 15px;
+}
+#about {
+    grid-area: about;
+    align-self: center;
+    justify-self: center;
+}
+#store {
+    grid-area: store;
+    align-self: center;
+    justify-self: center;
+}
+#gmail {
+    grid-area: gmail;
+    align-self: center;
+    justify-self: center;
+}
+#images {
+    grid-area: images;
+    align-self: center;
+    justify-self: center;
+}
+#menu {
+    grid-area: menu;
+    align-self: center;
+    justify-self: center;
+}
+#profile {
+    grid-area: profile;
+    align-self: center;
+    justify-self: center;
+}
+#navbar > a {
+    font-size: 14px;
+    text-decoration: none;
+    text-color: gray;
+}
+#navbar > a:visited {
+    color:rgba(0,0,0,0.87);
+}
+#about:hover, #store:hover, #gmail:hover, #images:hover {
+    text-decoration: underline;
+}
+
+/* GOOGLE LOGO AND SEARCH BAR STYLING */
+
+body {
+    height: 100%;
+}
+
+#main {
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-between;
+}
+#footerleft {
+    display: inline-block;
+    float: left;
+}
+#footerright {
+    display: inline-block;
+    float: inline-end;
+}

@@ -5,29 +5,33 @@
     <title>Google</title>
 </head>
 <body>
-    <ul>
-        <a href="#">About</a>
-        <a href="#">Store</a>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#">SquarePictures</a>
-        <a href="#">ProfilePicture</a>
-    </ul>
-    <main>
+    <nav id="navbar">
+        <a id="about" href="#">About</a>
+        <a id="store" href="#">Store</a>
+        <a id="gmail" href="#">Gmail</a>
+        <a id="images" href="#">Images</a>
+        <a class="menu" id="menu" href="#"><img src="images/googlemenu.png" alt=""></a>
+        <a class="profile" id="profile" href="#"><img src="images/profilephoto.png" alt=""></a>
+    </nav>
+    <main id="main">
         <a href="#"><img src="images/googlelogo.png" alt="Google Logo"></a>
-            <div>
-                <img src="#" alt="Search Icon">
+            <div id="searchbar">
+                <img src="images/googlesearch.png" alt="Search Icon">
                 <input type="text">
             </div>
-        <a href="#"><button type="submit" name="Google Search">Google Search</button></a>
-        <a href="#"></a><button type="submit" name="Google Search">I'm Feeling Lucky</button></a>
+        <a href="#"><button class="button" type="submit" name="Google Search">Google Search</button></a>
+        <a href="#"></a><button class="button" type="submit" name="Google Search">I'm Feeling Lucky</button></a>
     </main>
-    <footer>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+    <footer id="footer">
+            <div id="footerleft">    
+                <a id="advertising" href="#">Advertising</a>
+                <a id="business" href="#">Business</a>
+                <a id="howsearchworks" href="#">How Search Works</a>
+            </div>
+            <div id="footerright"></div>    
+                <a id="privacy" href="#">Privacy</a>
+                <a id="terms" href="#">Terms</a>
+                <a id="settings" href="#">Settings</a>
+            </div>
     </footer>
 </body>
